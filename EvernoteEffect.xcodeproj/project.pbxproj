@@ -21,6 +21,7 @@
 		CFD60E7718E7262E00A9675E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD60E5918E7262E00A9675E /* UIKit.framework */; };
 		CFD60E7F18E7262E00A9675E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD60E7D18E7262E00A9675E /* InfoPlist.strings */; };
 		CFD60E8118E7262E00A9675E /* EvernoteEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD60E8018E7262E00A9675E /* EvernoteEffectTests.m */; };
+		CFD60E8C18E7269000A9675E /* EverNoteLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD60E8B18E7269000A9675E /* EverNoteLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CFD60E7C18E7262E00A9675E /* EvernoteEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EvernoteEffectTests-Info.plist"; sourceTree = "<group>"; };
 		CFD60E7E18E7262E00A9675E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFD60E8018E7262E00A9675E /* EvernoteEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteEffectTests.m; sourceTree = "<group>"; };
+		CFD60E8A18E7269000A9675E /* EverNoteLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverNoteLayout.h; sourceTree = "<group>"; };
+		CFD60E8B18E7269000A9675E /* EverNoteLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EverNoteLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CFD60E6718E7262E00A9675E /* Main.storyboard */,
 				CFD60E6A18E7262E00A9675E /* ViewController.h */,
 				CFD60E6B18E7262E00A9675E /* ViewController.m */,
+				CFD60E8A18E7269000A9675E /* EverNoteLayout.h */,
+				CFD60E8B18E7269000A9675E /* EverNoteLayout.m */,
 				CFD60E6D18E7262E00A9675E /* Images.xcassets */,
 				CFD60E5C18E7262E00A9675E /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD60E6C18E7262E00A9675E /* ViewController.m in Sources */,
+				CFD60E8C18E7269000A9675E /* EverNoteLayout.m in Sources */,
 				CFD60E6618E7262E00A9675E /* AppDelegate.m in Sources */,
 				CFD60E6218E7262E00A9675E /* main.m in Sources */,
 			);
